@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#toDoList, #doingList, #doneList {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    background-image: url("./pink-marble-stacey-crawford.jpg");
+    background-size: contain, cover;
+    border: 0.1em solid rgb(102, 0, 51);
+    width: 30%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    user-select: none;
+    text-shadow: 2px 1px grey;
+}
+
+input {
+    min-width: 50%;
+    padding: 0.2em;
+    margin: 0.2em;
+    background-color: azure;
+    border: 1px solid rgb(204, 102, 255);
+    border-radius: 4px;
+}
+
+input:focus {
+    color:rgb(102, 0, 51);
+    box-shadow: 2px 1px 5px rgb(168,136,198);
+    border: 1px solid rgb(102, 0, 51);
+    outline-color: rgb(168,136,198)
+}
+
+
+button {
+    padding: 0.3em;
+    margin: 0.3em;
+    border-radius: 90px;
+    background-color: #FFDEED;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.tareas div {
+    min-width: 20em;
+    padding: 0.5em;
+    border: 0.1em solid azure;
+    background-color: #d8afff;
+    margin: 0.8em;
+}
+
+.tareas div button {
+    margin: 0.3em;
+}
+
+.completed {
+    color: rgb(102, 0, 51);
+    text-decoration: line-through;
+}
