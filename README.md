@@ -1,6 +1,8 @@
 # 🗒️ DOM-Tasks ✏️
 Esta aplicación te permite crear una lista de tareas con sus subtareas, indicar que han sido empezadas y marcarlas como finalizadas. Realizado manipulando el DOM con JavaScript y añadiendo estilos con CSS.
 
+![Main](https://i.ibb.co/Dtn4Nx2/DOMtasks-demo-250.png)
+
 ## DOM-Tasks demo 📌
 
 Pruébalo haciendo click [aquí](https://oremorsiri.github.io/DOM-Tasks/)
